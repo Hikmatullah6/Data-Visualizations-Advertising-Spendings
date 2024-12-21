@@ -61,11 +61,16 @@ The data represents a company's advertising spending across multiple channels an
 The following visualizations are generated to analyze the dataset:
 
 - **Scatter Plot Matrix**: The `sns.pairplot` function is used to visualize pairwise relationships between all variables (TV, radio, newspaper, and sales).
-  ![](./images/scatter-plot-matrix.png)
+
+![](./images/scatter-plot-matrix.png)
+
 - **Trellis Plot**: A trellis plot created using `sns.FacetGrid`, where radio spending is categorized into high and low spending groups, and the relationship between TV spending and sales is analyzed.
-  ![](./images/trellis-plot.png)
+
+![](./images/trellis-plot.png)
+
 - **Tree Map**: A tree map created with `squarify` to represent the total spending in TV, radio, and newspaper advertising channels.
-  ![](./images/tree-map.png)
+
+![](./images/tree-map.png)
 
 ---
 
